@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# CoderSchool FTW - _Weather App_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TODO: 🔴🟠🟢 ADD PROJECT NAME -->
 
-## Available Scripts
+Created with love by: `Thang`
 
-In the project directory, you can run:
+<!-- View online at: `Your URL here` -->
+<!-- TODO: 🎉 Public online to CodePen/Repl.it/CodeSandbox/Netlify then update the link here -->
 
-### `npm start`
+<!-- Summary: One or two sentence summary of your project.  -->
+<!-- TODO: 📜 Summarize the project -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- ## Video Walkthrough
+Here's a walkthrough of implemented user stories.
+To create a GIF, use [LiceCap](http://www.cockos.com/licecap/), [RecordIt](http://www.recordit.co), or [Loom](http://www.useloom.com), and link the image here in the markdown.
+```
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+``` -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- TODO: 🎬 Make a gif and show here -->
 
-### `npm test`
+## User Stories
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- TODO: 🔴🟠🟢 ADD USER STORIES -->
 
-### `npm run build`
+### The following **required** functionalities are completed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ ] User is prompted when the app loads to give permission to use their location
+- [ ] User can see their current location's name
+- [ ] User can see their current location's fahrenheit & celsius temperature
+- [ ] User can see description of their current location's weather
+- [ ] User can see an icon which illustrates the current location's weather
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### The following **optional** features are implemented:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ ] 🚀 User can see a spinner when the page is loading
+- [ ] 🚀 User can see an error message if there is an error
 
-### `npm run eject`
+### The following **additional** features are implemented:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [ ] 🚀🚀🚀 This awesome README.md
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- ## Time Spent and Lessons Learned -->
+<!-- Time spent: **X** hours spent in total. -->
+<!-- TODO: ⌛ Add time spent -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- ### Challenges encountered while building the app:
+- A challange -->
+<!-- TODO: 🚧 What are the challenges?  -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- ### Lessons Learned:
+- A lesson -->
+<!-- TODO: 🐱‍🏍 What did you learn? -->
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Copyright [2021] [Le Quang Thang]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-### Code Splitting
+        http://www.apache.org/licenses/LICENSE-2.0
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
