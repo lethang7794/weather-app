@@ -25,11 +25,11 @@ To create a GIF, use [LiceCap](http://www.cockos.com/licecap/), [RecordIt](http:
 
 ### The following **required** functionalities are completed:
 
-- [ ] User is prompted when the app loads to give permission to use their location
-- [ ] User can see their current location's name
-- [ ] User can see their current location's fahrenheit & celsius temperature
-- [ ] User can see description of their current location's weather
-- [ ] User can see an icon which illustrates the current location's weather
+- [x] User is prompted when the app loads to give permission to use their location
+- [x] User can see their current location's name
+- [x] User can see their current location's fahrenheit & celsius temperature
+- [x] User can see description of their current location's weather
+- [x] User can see an icon which illustrates the current location's weather
 
 ### The following **optional** features are implemented:
 

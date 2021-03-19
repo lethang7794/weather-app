@@ -1,0 +1,77 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Blur-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-position: center;
+  background-size: cover;
+}
+
+.Main {
+  align-items: center;
+}
+
+.WeatherCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0.5rem auto;
+  padding: 1.5rem;
+
+  border: 1px solid currentColor;
+
+  border-radius: 22px;
+
+  color: white;
+
+  background-color: rgba(255, 255, 255, 0.08);
+
+  min-height: 400px;
+  max-width: 300px;
+}
+
+.WeatherCard .location {
+  font-size: 1.5rem;
+}
+
+.WeatherCard .temperature {
+  font-size: 2.5rem;
+}
+
+.WeatherCard .temperature .degree {
+  font-weight: bold;
+  vertical-align: text-bottom;
+}
+
+.WeatherCard .temperature .unit {
+  vertical-align: text-top;
+  font-size: 1.5rem;
+}
+
+.WeatherCard .description {
+  font-size: 1.5rem;
+}
+
+.WeatherCard .icon {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.WeatherCard .bgIcon {
+  padding-bottom: 150px;
+  /* background-color: gray; */
+  width: 100%;
+
+  background-position: center;
+  background-size: cover;
+}
