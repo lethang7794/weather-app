@@ -8,14 +8,15 @@ View online at: [https://lqt-weather-app.netlify.app/](https://lqt-weather-app.n
 
 Summary: An awesome weather app.
 
-<!-- ## Video Walkthrough
-Here's a walkthrough of implemented user stories.
-To create a GIF, use [LiceCap](http://www.cockos.com/licecap/), [RecordIt](http://www.recordit.co), or [Loom](http://www.useloom.com), and link the image here in the markdown.
-```
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-``` -->
+## Video Walkthrough
 
-<!-- TODO: 🎬 Make a gif and show here -->
+Here's a walkthrough of implemented user stories.
+
+- Get permission to get user's location and show weather.
+  <a href="https://lqt-weather-app.netlify.app/"><img src="http://g.recordit.co/5LBMJshNO6.gif" max-height="400"></a>
+
+- Error handling when user decline permission.
+  <a href="https://lqt-weather-app.netlify.app/"><img src="http://g.recordit.co/oM89U8hT0v.gif" max-height="400"></a>
 
 ## User Stories
 
