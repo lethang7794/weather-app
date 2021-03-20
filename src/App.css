@@ -4,7 +4,15 @@
   min-height: 100vh;
 }
 
-.Blur-background {
+.Background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.BlurBackground {
   position: absolute;
   top: 0;
   left: 0;
@@ -13,6 +21,7 @@
 
   background-position: center;
   background-size: cover;
+  backdrop-filter: blur(12px);
 }
 
 .Main {
@@ -35,6 +44,7 @@
   color: white;
 
   background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
 
   min-height: 400px;
   max-width: 300px;

@@ -1,15 +1,17 @@
 import React from 'react';
-import backgroundImage from '../wallpaper.jpg';
+import backgroundImage from './wallpaper.jpg';
 
 const BlurBackground = () => (
   <div
-    className="Blur-background"
+    className='Background'
     style={{
-      background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
     }}
-  ></div>
+  >
+    <div className='BlurBackground'></div>
+  </div>
 );
 
 export default BlurBackground;
