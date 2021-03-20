@@ -24,6 +24,16 @@
   backdrop-filter: blur(12px);
 }
 
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: white !important;
+  border-color: transparent !important;
+}
+
 .Main {
   align-items: center;
 }
