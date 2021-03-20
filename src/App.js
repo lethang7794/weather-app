@@ -16,16 +16,36 @@ function App() {
   });
 
   const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
+
   // const [scale, setScale] = useState('metrics');
 
   const getWeather = async (lat, lon) => {
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}`;
 
-    let response = await fetch(url);
-    let data = await response.json();
+    try {
+      setLoading(true);
+      setError(false);
 
-    console.log(data);
-    setData(data);
+      let response = await fetch(url);
+      let data = await response.json();
+
+      if (response.ok) {
+        setData(data);
+
+        setTimeout(() => {
+          setLoading(false);
+          setError(false);
+        }, 1000);
+      } else {
+        setLoading(false);
+        setError(true);
+      }
+    } catch (err) {
+      setLoading(false);
+      setError(true);
+    }
   };
 
   // Get the location from geolocation API
@@ -55,12 +75,22 @@ function App() {
   }, [currentPosition]);
 
   return (
-    <div className="App">
+    <div className='App'>
       <BlurBackground />
       <SiteNavBar />
-      <Container className="Container flex-grow-1 d-flex flex-column">
-        <Row className="Main h-100 flex-grow-1">
-          <Col>{data ? <WeatherCard data={data} scale={null} /> : null}</Col>
+      <Container className='Container flex-grow-1 d-flex flex-column'>
+        <Row className='Main h-100 flex-grow-1'>
+          <Col>
+            {!!loading && <h1 className='text-center text-white'>Loading</h1>}
+            {!!error && (
+              <h1 className='text-center text-white'>
+                Sorry, something went wrong! 🙇‍♂️
+              </h1>
+            )}
+            {!loading && !error && !!data && (
+              <WeatherCard data={data} scale={null} />
+            )}
+          </Col>
         </Row>
       </Container>
     </div>
