@@ -13,10 +13,12 @@ Summary: An awesome weather app.
 Here's a walkthrough of implemented user stories.
 
 - Get permission to get user's location and show weather.
-  <a href="https://lqt-weather-app.netlify.app/"><img src="http://g.recordit.co/5LBMJshNO6.gif" max-height="400"></a>
+
+  <a href="https://lqt-weather-app.netlify.app/"><img src="http://g.recordit.co/5LBMJshNO6.gif" height="auto" width="400px"></a>
 
 - Error handling when user decline permission.
-  <a href="https://lqt-weather-app.netlify.app/"><img src="http://g.recordit.co/oM89U8hT0v.gif" max-height="400"></a>
+
+  <a href="https://lqt-weather-app.netlify.app/"><img src="http://g.recordit.co/oM89U8hT0v.gif" height="auto" width="400px"></a>
 
 ## User Stories
 
